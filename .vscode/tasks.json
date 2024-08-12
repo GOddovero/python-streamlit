@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Streamlit",
+        "type": "shell",
+        "command": "streamlit run ${file}",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Ejecuta Streamlit en el archivo actual"
+      }
+    ]
+  }
+  
